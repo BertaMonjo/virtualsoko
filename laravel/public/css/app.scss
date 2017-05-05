@@ -1,0 +1,55 @@
+@import "variables";
+@import "mixin";
+
+/* -------- BASE -------- */
+html, body{
+  margin: 0px;
+}
+.page{
+  background-color: orange;
+  height: 100vh;
+  position: relative;
+}
+.main-page{
+
+}
+/* -------- BASE -------- */
+
+/* -------- FONTS -------- */
+h1{
+  font-size: rem(32);
+  font-family: $primary-font;
+  font-weight: 600;
+}
+
+h2{
+
+}
+
+p{
+  font-family: $primary-font;
+  font-weight: 400;
+  font-size: rem(16);
+}
+/* -------- FONTS -------- */
+
+/* -------- HEADER -------- */
+.main-header{
+ /* position: absolute;
+  top:0px;
+  left:0px;
+  right:0px;*/
+  width: 80%;
+  margin:0 auto;
+  padding: 10px 15px;
+  background-color: #9d9d9d;
+  z-index: 10000;
+}
+
+.logo{
+  font-family: $primary-font;
+  font-size: rem(32);
+  font-weight: 700;
+  color: #1c67bd;
+}
+/* -------- HEADER -------- */

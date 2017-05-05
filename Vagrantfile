@@ -1,5 +1,5 @@
 Vagrant.configure("2") do |config|
-  config.vm.hostname = "base.laravel.morillasinteractive.local"
+  config.vm.hostname = "virtualsoko.org"
 
   config.vm.box = "morillas/laravel_base"
   config.hostmanager.enabled = true
