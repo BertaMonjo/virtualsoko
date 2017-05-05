@@ -6,5 +6,5 @@
 
 @section('content')
     <h1 class="description-title">Virtualsoko</h1>
-    
+
 @endsection
